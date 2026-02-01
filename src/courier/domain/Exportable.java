@@ -1,5 +1,10 @@
 package courier.domain;
 
-public interface Exportable {
-    String generateCsvHistory();
+import java.io.IOException;
+import java.util.List;
+
+public interface Exportable
+{
+    String exportToCSV() throws IOException;
+    List<String> getExportableData();
 }
