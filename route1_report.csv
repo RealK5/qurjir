@@ -1,0 +1,6 @@
+ID Trasy,ID Kuriera,Liczba Paczek,Całkowita Waga (kg),Status
+ROUTE001,COURIER001,2,7,50,Aktywna
+
+ID Paczki,Typ,Waga (kg),Status,Historia
+PKG001,StandardParcel,2,50,Dostarczona,Oczekująca -> Odebrana -> Dostarczona
+PKG002,FragileParcel,5,00,Dostarczenie nieudane,Oczekująca -> Odebrana -> Dostarczenie nieudane
